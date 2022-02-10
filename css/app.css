@@ -1,3 +1,5 @@
+/* Header Section */
+
 header {
     
     background-color: #1f2937;
@@ -9,6 +11,29 @@ header li, header p {
     color: #e5e7eb;
     size: 18px;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.1% 15% 7%;
+}
+
+.nav-link {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.text-section {
+    display: flex;
+    margin: 0 15% 7%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
 
 img {
     height: 200px;
@@ -41,10 +66,6 @@ button {
     color: white;
 }
 
-.topline {
-    display: flex;
-    justify-content: space-between;
-}
 
 .text {
     align-items: center;
