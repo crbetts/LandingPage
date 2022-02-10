@@ -26,18 +26,13 @@ h3 {
     size: 24px;
 }
 
-section {
-    height: 200px;
-    width: 100vw;
-}
 
 .quote {
     background-color: #e5e7eb;
 }
 
 footer {
-    height: 200px;
-    width: 100vw;
+    
     background-color: #1f2937;
 }
 
@@ -53,4 +48,16 @@ button {
 
 .text {
     align-items: center;
+}
+
+blockquote {
+    color: #1f3927;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+figcaption {
+    color: #1f3927;
+    font-size: 36px; 
 }
